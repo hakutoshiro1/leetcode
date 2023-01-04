@@ -14,7 +14,7 @@ public:
             if(x<2)return -1;
             else if(x%3==0) ans+=x/3;
             else ans+=x/3+1;
-        }
+        } 
         return ans;
     }
 };
